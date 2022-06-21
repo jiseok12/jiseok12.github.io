@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우주최강</title>
+    <style>#demo{border:1px solid #ccc; background:lightyellow;width: 400px;}</style>
+</head>
+<body>
+    <h1>자바스크립트 배열</h1>
+    <h2>forEach() Method</h2>
+    <p>forEach()문은 배열의 각요소를 반복해서 참조하는 함수를 호출한다.</p>
+    <p id="demo"></p>
+    <script>
+        let $arrayPar=document.getElementById('demo');
+        let text="";
+        const fruits=["apple","watermelon","banana","키위","딸기"];
+
+        fruits.forEach(myFuntion);
+        function myFuntion(item,index){
+            text += index + ":" + item + "<br>";
+        }
+        $arrayPar.innerHTML = text;
+    </script>
+</body>
+</html>
