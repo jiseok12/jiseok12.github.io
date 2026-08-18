@@ -18,5 +18,3 @@
 ## GitHub Pages 공개
 
 GitHub 저장소에 전체 파일을 올린 뒤 `Settings → Pages → Deploy from a branch → main / root`를 선택합니다.
-
-> 현재 장바구니는 브라우저에 저장되는 데모입니다. 카드 결제와 실제 주문 저장에는 별도 쇼핑몰 백엔드가 필요합니다.
